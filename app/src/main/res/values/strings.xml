@@ -1,0 +1,65 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Just Java</string>
+
+    <string name="background_image">wood background image</string>
+
+    <!--Header text for list of toppings-->
+    <string name="toppings">Toppings</string>
+
+    <!--Header text for list of Quantity-->
+    <string name="quantity">Quantity</string>
+
+    <!--Header text for list of toppings-->
+    <string name="initial_qty_value">1</string>
+
+    <!--Heder for Whipped Cream option-->
+    <string name="whipped_cream">Whipped cream</string>
+
+    <!--Header for Chocolate drizzle option-->
+    <string name="chocolate_drizzle">Chocolate drizzle</string>
+
+    <!--Order button text-->
+    <string name="order">Order</string>
+
+    <!--Enter Name field hint-->
+    <string name="hint_name">Name</string>
+
+    <!--Header Text-->
+    <string name="time_for_coffee">Time for Coffee?</string>
+
+    <!--Decrement symbol-->
+    <string name="minusSym">-</string>
+
+    <!--Quantity TextView-->
+    <string name="qty">1</string>
+
+    <!--Increment symbol-->
+    <string name="plusSym">+</string>
+
+    <!--Name for order summary. It will be shown in format of "Name: Amy" where Amy is the
+    users name.-->
+    <string name="order_summary_name">Name: <xliff:g example="Amy" id="name">%s</xliff:g></string>
+
+    <!--Whipped cream topping for order summary. It will be shown in format of "Add Whipped cream? true"  or
+"Add Whipped cream? false" -->
+    <string name="order_summary_whipped_cream">Add whipped cream? <xliff:g example="true" id="addWhippedCream">%b</xliff:g></string>
+
+    <!--Chocolate topping for order summary. It will be shown in format of "Add chocolate? true"  or "Add chocolate? false" -->
+    <string name="order_summary_chocolate">Add Chocolate drizzle? <xliff:g example="true" id="addChocolate">%b</xliff:g></string>
+
+    <!--Quantity of cups of coffee. It will be shown in format of "Quantity: 2" where 2 is the
+       number of cups ordered.-->
+    <string name="order_summary_quantity">Quantity: <xliff:g example="2" id="quantity">%d</xliff:g></string>
+
+    <!--Total price for order summary. It will be shown in format of "Total: $5" where $5 is the
+    price.-->
+    <string name="order_summary_price">Total: <xliff:g example="$5" id="price">$%d</xliff:g></string>
+
+    <!--Thank you message for order summary-->
+    <string name="thank_you">Thank you!</string>
+
+    <!--Subject line for order summary email. It will be shown in format of "Just Java order for Amy" where Amy is the
+ the user's name.-->
+    <string name="order_summary_email_subject">Just Java order for <xliff:g example="Amy" id="name">%s</xliff:g></string>
+
+</resources>
